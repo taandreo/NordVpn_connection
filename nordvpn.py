@@ -13,10 +13,12 @@ def usage():
                 -c <Country Code>: Find the best server for the informed country.''', file=sys.stderr)
     sys.exit(1)
 
+# Recieve error messages.
 def fatal(msg):
     print("Error:\n\t%s" %msg, file=sys.stderr)
     sys.exit(1)
 
+# Update the repository from https://api.nordvpn.com/server and save the content to a json file
 def Update():
     try:
         json_data = (urllib.request.urlopen('https://api.nordvpn.com/server').read()).decode("utf-8")
@@ -26,6 +28,8 @@ def Update():
     json_file = open("servers.json", "w")
     json_file.write(json_data)
     json_file.close()
+
+# Receive the output from ping and uses RE Expressions to parsing the results.
 
 def ping_parsing(ping):
     suum = 0
