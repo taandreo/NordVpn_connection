@@ -1,9 +1,0 @@
-usage	nordvpn.py	/^def usage():$/;"	f
-fatal	nordvpn.py	/^def fatal(msg):$/;"	f
-Update	nordvpn.py	/^def Update():$/;"	f
-ping_parsing	nordvpn.py	/^def ping_parsing(ping):$/;"	f
-ms_test	nordvpn.py	/^def ms_test(server, lock):$/;"	f
-LowerFloat	nordvpn.py	/^def LowerFloat(lista):$/;"	f
-Connection	nordvpn.py	/^def Connection():$/;"	f
-main	nordvpn.py	/^def main():$/;"	f
-NordVpn_connection	README.md	/^# NordVpn_connection$/;"	c
