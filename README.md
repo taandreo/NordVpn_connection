@@ -1,5 +1,5 @@
 ## NordVpn Connection
-#Simple script to test the connection to the NordVpn servers.
+# Simple script to test the connection to the NordVpn servers.
 
 Usage:
 
